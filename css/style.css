@@ -1,0 +1,308 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ebf2f7;
+    font-family: Roboto;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    min-height: 10vh;
+    background-color: #509af5;
+    font-family: 'Poppins';
+    top: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    margin-left: 10%;
+    width: 46%;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 22px;
+}
+
+.logo h4 {
+    width: 115px;
+    padding: 18px 40px;
+    margin-left: -35px;
+}
+
+.img-logo {
+    width: 23px;
+    position: absolute;
+    top: 22px;
+    margin-left: -2.5%;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 50px;
+    width: 90%;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    justify-content: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 23px 10px;
+    transition: .5s;
+}
+
+.active,
+.nav-links a:hover {
+    color: rgb(255, 238, 0);
+}
+
+
+.header {
+    position: relative;
+    background-color: #509bf5;
+}
+
+
+.main-header {
+    width: 100%;
+    height: 520px;
+    display: flex;
+}
+
+.main-header .caption {
+    width: 50%;
+    padding-top: 125px;
+    margin-left: 7%;
+    font-family: Roboto;
+    letter-spacing: 3px;
+    font-size: 65px;
+    color: #fff;
+}
+
+.main-header img {
+    height: 430px;
+    margin: 70px 0 0 130px;
+}
+
+.container {
+    margin: 100px 0 0 7.5%;
+    width: 85%;
+}
+
+.title {
+    margin: 100px 0 15px 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.title-form {
+    margin: 0 0 15px 0;
+    font-size: 20px;
+}
+
+.background {
+    background-color: white;
+    border-radius: 20px;
+    width: 700px;
+    padding: 40px 0 20px 50px;
+}
+
+.background2 {
+    background-color: white;
+    border-radius: 20px;
+    width: 350px;
+    padding: 30px;
+    height: 170px;
+}
+
+
+.card-answer {
+    text-align: justify;
+    border-radius: 20px;
+    font-family: Roboto;
+    font-size: 14px;
+    width: 600px;
+    padding: 20px 30px 30px 30px;
+    border: 1px solid #adadad;
+    margin-bottom: 20px;
+}
+
+.card-answer h2,
+.background2 h2 {
+    margin-bottom: 25px;
+}
+
+.card {
+    text-align: center;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-size: 14px;
+    width: 300px;
+    padding: 20px 30px 30px 30px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+}
+
+.card .title-h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.card .btn-card {
+    background-color: #509bf5;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-size: 18px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer {
+    margin-top: 50px;
+    width: 100%;
+    background-color: #509bf5;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins';
+    bottom: 0;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+}
+
+.txtb {
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+    width: 600px;
+}
+
+.txtb input,
+select,
+textarea {
+    font-family: Arial;
+    font-size: 15px;
+    color: #333;
+    border: none;
+    width: 100%;
+    outline: none;
+    background: none;
+    padding: 0 5px;
+    height: 40px;
+}
+
+.txtb textarea {
+    margin-top: 10px;
+}
+
+.btn {
+    font-size: 14px;
+    width: 100px;
+    border-radius: 20px;
+    margin: 0;
+    height: 50px;
+    border: none;
+    background-color: #509bf5;
+    padding: 12px 15px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    transition: .4s;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background-color: #0044ff;
+    color: white;
+}
+
+.card-login {
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    padding: 40px 50px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #adadad;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 60%;
+    text-align: center;
+}
+
+td,
+th {
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th {
+    background-color: #509bf5;
+    color: white;
+}
+
+
+.nav-bank {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    min-height: 10vh;
+    background-color: #323639;
+    font-family: 'Poppins';
+}
+
+.nav-bank a {
+    color: white;
+    text-decoration: none;
+    padding: 22px 20px;
+}
+
+.nav-bank a:hover {
+    background-color: #4e4c47;
+}
